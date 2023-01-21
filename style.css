@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+                                /* black header navbar */
+#header {
+    background-color: black;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+h1 {
+    font-size: 48px;
+}
+
+#links {
+    /* border: solid yellow; */
+    font-size: 20px;
+    display: flex;
+    width: 35%;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+ul{
+    list-style-type: none;
+    width: 80%;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    padding-left: 10px;
+}
+
+button{
+    background-color: #16A3B8;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+
+                                /* bigbox */
+#bigbox{
+    margin: 20px 10% 10px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftbox{
+    display: inline-flex;
+    flex-direction: column;
+    width: 67%;
+}
+
+.rightbox {
+    display: inline-flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+                                /* profile box*/
+#profile {
+    border: solid gray;
+    margin-bottom: 20px;
+}
+.profile_top {
+    background-color: #16A3B8;
+    height: 50px;
+}
+
+.main {
+    padding-left: 3%; 
+}
+h2{
+    font-size: 32px;
+    padding-top: 10px;
+}
+
+.icon {
+    width: 20px;
+}
+
+h3{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+p {
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+                                /* education */
+#education{
+    border: solid gray;
+    margin-bottom: 20px;
+}
+
+h4 {
+    color: gray;
+    padding: 10px 0;
+}
+
+.grey_nav{
+    background-color: #333333;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+                                /* requests */
+#requests{
+    border: solid gray;
+    margin-bottom: 20px;
+}
+
+.req_nr, .c_nr {
+    background-color: #CDCCCD;
+    height: 20px;
+    width: auto;
+    border-radius: 45%;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 10px;
+    padding: 0 10px;
+}
+
+
+.prof_img{
+    height: 50px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.box_main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+                                /* connections */
+#connections{
+    border: solid gray;
+    margin-bottom: 20px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+}
+
+.box_bottom {
+    border-top: solid gray;
+    padding-left: 20px;
+    padding: 10px;
+}
+
+                                /* footer */
+#footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h6{
+    font-size: large;
+}

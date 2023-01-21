@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <div id="links">
+                <h1>Profile</h1>
+                <ul>
+                    <li>Home</li>
+                    <li>My Profile</li>
+                    <li>Find Connections</li>
+                </ul>
+            </div>
+            <button>Sign Out</button>
+        </div>
+
+        <div id="bigbox">
+            <div class="leftbox">
+                <div id="profile">
+                    <div class="profile_top"></div>
+                    <div class="main">
+                        <h2 id="h2-name">Jane Doe</h2>
+                        <h3><img class="icon" src="./icons/map-marker.png" alt="map" >&nbsp; Seattle</h3>
+                        <p>Developer | Engineer | Problem Solver</p>
+                        <p>Master of shadows and the Internet!</p>
+                        <img class="icon" src="./icons/gear.png" alt="edit">
+                        <a onclick="h2name()" href="#">edit profile</a>
+                    </div>
+                </div>
+
+                <div id="education">
+                    <div class="grey_nav">Education</div>
+                    <div class="main">
+                        <h3>Coding Dojo - Full Stack Bootcamp</h3>
+                        <h4>Dec 2019 - Mar 2020</h4>
+                        <p>Triple black belt in Python, MERN and C#... </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rightbox">
+                <div id="requests">
+                    <div class="grey_nav"> <p class="req_nr">2</p>Connection Requests</div>
+                    <div id="toddE" class="box_main">
+                        <img  class="prof_img" src="./images/todd-s.jpg" alt="todd">
+                        <p>Todd E</p>
+                        <div>
+                            <img id="conAcc1" onclick="accept('toddE')" class="icon" src="./icons/accept-circle.png" alt="accept">
+                            <img id="conDec1" onclick="decline('toddE')" class="icon" src="./icons/close-circle.png" alt="decline">
+                        </div> 
+                    </div>
+                    <div id="philK" class="box_main">
+                        <img class="prof_img" src="./images/phil-s.jpg" alt="phil">
+                        <p>Phil K</p>
+                        <div>
+                            <img id="conAcc2" onclick="accept('philK')" class="icon" src="./icons/accept-circle.png" alt="accept">
+                            <img id="conDec2" onclick="decline('philK')" class="icon" src="./icons/close-circle.png" alt="decline">
+                        </div> 
+                    </div>
+                </div>
+
+                <div id="connections">
+                    <div class="grey_nav"> <p class="c_nr">500</p>Your Connections</div>
+                    
+                    <div class="box">
+                        <img class="prof_img" src="./images/adrien-s.jpg" alt="adrien">
+                        <p>Adrien D</p>
+                    </div>
+                    <div class="box">
+                        <img class="prof_img" src="./images/anne-s.jpg" alt="anne">
+                        <p>Anne J</p>
+                    </div>
+                    <div class="box">
+                        <img class="prof_img" src="./images/alayne-s.jpg" alt="alayne">
+                        <p>Alayne T</p>
+                    </div>
+                    <div class="box">
+                        <img class="prof_img" src="./images/arry-s.jpg" alt="arry">
+                        <p>Arry Y</p>
+                    </div>
+
+                    <div class="box_bottom">
+                        <a href="#">View More</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <h6>©️ 2023 Nandor. All Rights Reserved </h6>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
